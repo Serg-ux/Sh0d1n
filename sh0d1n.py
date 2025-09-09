@@ -10,7 +10,7 @@ def main():
     print("Welcome to F00tpr1nt3r")
     print("This tool will help you find information about a target IP address using Shodan.")
     while True:
-        cmd = input("F00tpr1nt3r> ").strip()
+        cmd = input("F00tpr1nt3r> ").strip().lower()
         if cmd == "exit":
             print("Exiting F00tpr1nt3r. Goodbye!")
             break
